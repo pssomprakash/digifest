@@ -7,5 +7,6 @@ catch(e){}
 
 setTimeout(function(){
 $scope.tempC = dataShare.geTemp("temp");
+$scope.$apply();
  }, 2000);
 });

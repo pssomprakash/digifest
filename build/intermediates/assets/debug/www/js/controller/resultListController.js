@@ -38,7 +38,8 @@ app.controller('resultListCtrl', function($scope, $state, $ionicLoading, $ionicS
 
        // $state.go('menuData.details');
     }
-    $scope.dataArray = dataShare.getdata("data");
+    //$scope.dataArray = dataShare.getdata("data");
+    $scope.dataArray = localStorage.getItem("data");
 var datourArr = $scope.dataArray.split("`");
 var myObject = [];
  for(var i=0;i<datourArr.length;i++){
@@ -61,7 +62,7 @@ myObject.push(Myobject);
   $scope.dataPlace = myObject;
     $scope.viewONMap = function(latLong){
     //alert(latLong.Lat);
-    var position=latLong.split("_");
+    var position=latLong.Lat.split("_");
 
         localStorage.setItem("lat",position[0]);
         localStorage.setItem("lng",position[1]);

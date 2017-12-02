@@ -104,14 +104,14 @@ app.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, $c
 
        .state('home', {
                url: '/home',
-               // cache: false,
+               cache: false,
                templateUrl: 'templates/home.html',
                controller: 'homeCtrl'
 
            })
            .state('menuData.resultList', {
                url: '/resultList',
-               // cache: false,
+               cache: false,
                views: {
                    'menuContent': {
                        templateUrl: 'templates/resultList.html',
