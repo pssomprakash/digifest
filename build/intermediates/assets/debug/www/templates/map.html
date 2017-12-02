@@ -1,0 +1,26 @@
+<ion-view class="" view-title="Map" hide-nav-bar="false" id="map-view">
+        <ion-nav-buttons side=" left ">
+            <button style="color:#fff;" class="button button-icon button-clear ion-navicon" menu-toggle="left ">
+                    </button>
+        </ion-nav-buttons>
+        <ion-nav-buttons side="right">
+                <a href="#/home" menu-close>
+                    <button style="color:#fff;"class="button button-icon button-clear ion-home">
+                    </button>
+                </a>
+            </ion-nav-buttons>
+        <ion-content scroll="true" style="background: #fff;">
+                <div class="row mapData"  id="map" style="height:80%;border:1px solid #ddd;">
+                </div>
+                <div class="row ">
+                  <button ng-click="showNavigation();" class="button button-clear col col-50 footerColor padding0" style="background:#0072ff;border-right:2px solid #fff;">Navigate</button>
+                  <button ng-click="bookCab();" class="button button-clear col col-50 footerColor padding0" style="background:#0072ff;border-right:5px solid #fff;">Book Cab</button>
+                
+                </div>
+        </ion-content>
+        <div class="bar bar-footer row">
+            <button style="background:#ff0000; color:#fff; border-radius:0; border-right:2px solid #fff;"class="col col-33 button icon-left ion-ios-telephone" ng-click="opentel();">Dial 100</button>
+            <button style="background:#0c60ee; color:#fff;border-radius:0; border-right:4px solid #fff;" class="col col-33 button icon-left ion-navigate" ng-click="sendMsg();"> Location</button>
+            <button style="background:#94780f; color:#fff;border-radius:0;" class="col col-33 button icon-left ion-android-happy">Experience</button>
+      </div>
+    </ion-view>

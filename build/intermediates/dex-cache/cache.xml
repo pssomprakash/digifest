@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_37856542abc5337043957b115c46de453c28fd4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-11.0.4_7148e828bbd087c1132f5d48d9ad52e8d0e8b1d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.2.3/debug/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="7a1530ac850543228ac856fe951d258efe29f918">
+        <dex dex="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-6.2.3-debug_b19d0ed79e91e790033b0766b72da78cbf484774.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_2f78273c088e8bf3813c29c17efc4531c2ff9ddd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_40cdfe9f16307be8e370e45f528427d25625b518.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.0.4_8998c76b580d6de86bc577bea12e2cd7e31725b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-11.0.4_37c8df22e2e0d6dfded76f207f85f8eda28a26ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_777d9f712ae7c90e44ec2e6d3b5fe37ce6be3c86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_a14c99e7ffb130c35b173378dab87711fc62428a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="41f47bbcd281fdb1e42e220220ab3bfa1da591e0">
+        <dex dex="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-11.0.4_e44b4222bf383ee54c58d5f40a60e39b36124176.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_67451422157078d4617c6272bd69d08e5c03d0d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/ex/android_sdk_studio/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.1"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_efd9e0e087aa6de81b65849fbf74abf45d7cf4f3.jar" />
+    </item>
+
+</items>

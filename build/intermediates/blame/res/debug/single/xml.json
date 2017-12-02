@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/Volumes/macosxlogical/TourApp/platforms/android/res/xml/config.xml"
+    },
+    {
+        "merged": "/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/res/merged/debug/xml/provider_paths.xml",
+        "source": "/Volumes/macosxlogical/TourApp/platforms/android/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/Volumes/macosxlogical/TourApp/platforms/android/build/intermediates/res/merged/debug/xml/sharing_paths.xml",
+        "source": "/Volumes/macosxlogical/TourApp/platforms/android/res/xml/sharing_paths.xml"
+    }
+]

@@ -1,0 +1,93 @@
+<ion-view class="" view-title="Details" hide-nav-bar="false">
+    <ion-nav-buttons side=" left ">
+        <button style="color:#fff;" class="button button-icon button-clear ion-navicon" menu-toggle="left ">
+        </button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <a href="#/home" menu-close>
+            <button style="color:#fff;"class="button button-icon button-clear ion-home">
+            </button>
+        </a>
+    </ion-nav-buttons>
+    <ion-content scroll="true" style="background: #fff;bottom:6%;">
+        <div class="row detailsImg" style="background:url(img/jaipur/{{detailData1.Img}})">
+        </div>
+        <h1 class="detailsTitle" style="font-size:6vw;padding-left:3%; color: #0c5c6f;">{{detailData1.Entity}} </h1>
+        <h3 class="temperature" style="font-size: 4vw;color: #f72811;padding-left: 3%;"><i class="icon ion-thermometer"></i>&nbsp;{{tempC}}C</h3>
+        <div class="list">
+
+            <div class="item item-divider">
+                About Us
+            </div>
+            <p style="padding:2%;">
+                {{detailData1.Des}}
+            </p>
+            <div class="item item-divider">
+                Reviews
+            </div>
+
+            <div class="list">
+
+                <a class="item item-avatar">
+                    <img src="img/user.png">
+                    <h2>Anonymous Users</h2>
+                    <p>Nice place to visit</p>
+                </a>
+                <a class="item item-avatar">
+                    <img src="img/user.png">
+                    <h2>Anonymous Users</h2>
+                    <p>Nice place to visit</p>
+                </a>
+                <a class="item item-avatar">
+                    <img src="img/user.png">
+                    <h2>Anonymous Users</h2>
+                    <p>Nice place to visit</p>
+                </a>
+
+
+            </div>
+
+            <div class="item item-divider">
+                Near by Places
+            </div>
+            <div class="blocksData" scroll="true">
+                <div class="col col-offset-10 col-50 img1 border staticData">
+                    <span class="titleBlock" style="background:#a5176c;">City Palace</span>
+                </div>
+                <div class="col col-offset-10 col-50 img2 border staticData ">
+                    <span class="titleBlock" style="background:#a5176c;">Jantar Mantar</span>
+                </div>
+                <div class="col col-offset-10 col-50 img3 border staticData">
+                    <span class="titleBlock"style="background:#a5176c;">Hawa Mahal</span>
+                </div>
+                <div class="col col-offset-10 col-50 img4 border staticData">
+                    <span class="titleBlock" style="background:#a5176c;">Jal Mahal</span>
+                </div>
+            </div>
+
+            <div class="item item-divider">
+                Near by Hotels
+            </div>
+            <div class="blocksData" scroll="true">
+                <div class="col col-offset-10 col-50 img1 border staticData">
+                    <span class="titleBlock" style="background:#066b23;">City Palace</span>
+                </div>
+                <div class="col col-offset-10 col-50 img2 border staticData ">
+                    <span class="titleBlock" style="background:#066b23;">Jantar Mantar</span>
+                </div>
+                <div class="col col-offset-10 col-50 img3 border staticData">
+                    <span class="titleBlock" style="background:#066b23;">Hawa Mahal</span>
+                </div>
+                <div class="col col-offset-10 col-50 img4 border staticData">
+                    <span class="titleBlock" style="background:#066b23;">Jal Mahal</span>
+                </div>
+            </div>
+
+        </div>
+    </ion-content>
+    <div class="bar bar-footer row">
+        <button style="background:#ff0000; color:#fff; border-radius:0; border-right:2px solid #fff;"class="col col-33 button icon-left ion-ios-telephone" ng-click="opentel();">Dial 100</button>
+        <button style="background:#0c60ee; color:#fff;border-radius:0; border-right:4px solid #fff;" class="col col-33 button icon-left ion-navigate" ng-click="sendMsg();"> Location</button>
+        <button style="background:#94780f; color:#fff;border-radius:0;" class="col col-33 button icon-left ion-android-happy">Experience</button>
+    </div>
+</ion-view>

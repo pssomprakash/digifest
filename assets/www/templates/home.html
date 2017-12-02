@@ -1,0 +1,36 @@
+<ion-view view-title="">
+  <ion-content >
+    <div class="row img" style="position:relative;" >
+        <div class="list list-inset searchClass">
+            <label class="item item-input"style="width:83%;float:left;">
+              <i class="icon ion-search placeholder-icon"></i>
+              <input type="text" ng-model= "user.place" style="font-size:5vw;"placeholder="Search City/Places/Hotels" >
+            </label>
+            <button class="button button-positive" ng-click="callSpeechtoText();">
+                <i class="icon ion-mic-a"></i>
+              </button>
+          </div>
+    </div>
+    <h3 class="staticDataTopMargin" style="text-align:center;color:#c72e0a;font-size: 5.8vw;">------Places Of Interest------</h3>
+    <div class="blocksData" scroll="true">
+      <div class=" img1 border staticData">
+        <span class="titleBlock">City Palace</span>
+      </div>
+      <div class=" img2 border staticData ">
+        <span class="titleBlock">Jantar Mantar</span>
+      </div>
+      <div class=" img3 border staticData">
+        <span class="titleBlock">Hawa Mahal</span>
+      </div>
+      <div class=" img4 border staticData">
+        <span class="titleBlock">Jal Mahal</span>
+      </div>
+    </div>
+
+  </ion-content>
+  <div class="bar bar-footer row">
+      <button style="background:#ff0000; color:#fff; border-radius:0; border-right:2px solid #fff;"class="col col-33 button icon-left ion-ios-telephone" ng-click="opentel();">Dial 100</button>
+      <button style="background:#0c60ee; color:#fff;border-radius:0; border-right:4px solid #fff;" class="col col-33 button icon-left ion-navigate" ng-click="sendMsg();"> Location</button>
+      <button style="background:#94780f; color:#fff;border-radius:0;" class="col col-33 button icon-left ion-android-happy">Experience</button>
+  </div>
+</ion-view>
